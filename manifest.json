@@ -3,17 +3,17 @@
   "name": "Preview - Simple Markdown Editor",
   "icons": [
     {
-      "src": "/img/96.png",
+      "src": "img/96.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "/img/240.png",
+      "src": "img/240.png",
       "sizes": "240x240",
       "type": "image/png"
     }
   ],
-  "start_url": "/index.html",
+  "start_url": "index.html",
   "display": "standalone",
   "orientation": "landscape"
 }
