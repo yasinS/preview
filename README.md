@@ -3,12 +3,10 @@ A simple Markdown editor, published under the [MIT License](https://github.com/y
 
 ## 💻 Online demo
 
-![Screenshot]()
-
-Try it out on my [GitHub Pages](https://yasins.github.io/preview/index.html) site.
+Try the latest Preview build hosted on [GitHub Pages](https://yasins.github.io/preview/index.html).
 
 ## 📓 Features
 * Live preview using [Showdown](https://github.com/showdownjs/showdown) 
 * Restrictive HTML sanitisation powered by [DOMPurify](https://github.com/cure53/DOMpurify)
 * Offline capable window with local save/load and night mode toggle
-* Full [table](https://www.npmjs.com/package/showdown-table) support
+* Markdown [table](https://www.npmjs.com/package/showdown-table) support
