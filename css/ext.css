@@ -45,3 +45,20 @@ blockquote {
 .night-element textarea {
 	color: #ffffff;
 }
+
+/* Print mode */
+
+@media print {
+  body {
+    visibility: hidden !important;
+  }
+  #output, #output * {
+    visibility: visible !important;
+  }
+  #output {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #000000;
+  }
+}
