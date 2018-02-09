@@ -1,0 +1,3 @@
+Contact: security@ysx.me.uk
+Acknowledgements: https://github.com/yasinS/preview/blob/master/SECURITY.md
+Policy: https://github.com/yasinS/preview/blob/master/SECURITY.md
