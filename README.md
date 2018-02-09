@@ -5,7 +5,7 @@ A simple Markdown editor, published under the [MIT License](https://github.com/y
 
 ![Screenshot]()
 
-Try it out on my [GitHub Pages](https://yasins.github.io/preview) site.
+Try it out on my [GitHub Pages](https://yasins.github.io/preview/preview.html) site.
 
 ## 📓 Features
 * Live preview using [Showdown](https://github.com/showdownjs/showdown) 
