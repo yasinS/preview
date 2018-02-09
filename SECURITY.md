@@ -12,7 +12,11 @@ _The following information is a partial copy of that in my HackerOne program pol
 ## Disclosure policy
 I will investigate submitted reports and make every effort to quickly resolve vulnerabilities in my "In Scope" projects. Please make a good-faith effort to avoid privacy violations, destruction of data, and interruption or degradation of any asset.
  
-### 📝 Preview (Markdown editor)
+## Service-level agreement (reasonable effort)
+* Time to first response: 3 working days
+* Time to triage: 4 working days
+
+### 📝 Preview (this project)
 [**Preview**](https://github.com/yasinS/preview) is a simple web-based Markdown editor with a selection of helpful features. This app can be used both locally and offline, so it may be useful to clone the repo and open `index.html` on your system. No information is transmitted nor account functionality offered – this is not a server-side project.
 
 This project contains some custom-written code and extensions, so I'm particularly interested in whether you can achieve XSS via a **Markdown payload**, or otherwise, in the context of `yasins.github.io` (e.g. DOM or reflected XSS).
