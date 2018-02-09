@@ -1,11 +1,21 @@
 # 🔒 Reporting security issues
 *Note (9th Feb 2018): you may receive a first response and/or follow-up comments via email, as this program is currently under review.*
 
-* If you discover a security issue, please report it by sending an email to **security@ysx-contact.com**.
+* If you believe you've found a security issue, you are encouraged to file a report.
+* Please send the report in an email to **security@ysx-contact.com**.
 * You will receive an invitation to my private HackerOne program where you can file your report.
 * Thank you for contributing towards the security of this project.
 
-The following information serves as part of my HackerOne program policy, and is copied below for your reference.
+# Policy
+_The following information is a partial copy of that in my HackerOne program policy, and is supplied below for your reference._
+ 
+## Disclosure policy
+I will investigate submitted reports and make every effort to quickly resolve vulnerabilities in my "In Scope" projects. Please make a good-faith effort to avoid privacy violations, destruction of data, and interruption or degradation of any asset.
+ 
+### 📝 Preview (Markdown editor)
+[**Preview**](https://github.com/yasinS/preview) is a simple web-based Markdown editor with a selection of helpful features. This app can be used both locally and offline, so it may be useful to clone the repo and open `index.html` on your system. No information is transmitted nor account functionality offered – this is not a server-side project.
+
+This project contains some custom-written code and extensions, so I'm particularly interested in whether you can achieve XSS via a **Markdown payload**, or otherwise, in the context of `yasins.github.io` (e.g. DOM or reflected XSS).
 
 ### Exclusions
 The following conditions, issues, and test types are **not** in scope for research against this project, or my disclosure program.
