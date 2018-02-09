@@ -15,14 +15,16 @@ function convert() {
 	});
 	target.innerHTML = clean;
 	Countable.count(document.getElementById('source'), counter => document.getElementById('wordCountLive').innerHTML= counter.words);
+	Countable.count(document.getElementById('source'), counter => document.getElementById('charCountLive').innerHTML= counter.characters);
 };
 
 // Prompt user before clearing editor window
 function clearText() {
-	if (confirm('This will clear your current Markdown text.\nWould you like to CLEAR the editor?')) {
+	if (confirm('This will REMOVE your current Markdown text.\nWould you like to clear the editor?')) {
 		document.getElementById("source").value = "";
 		document.getElementById("output").innerHTML = "";
 		document.getElementById('wordCountLive').innerHTML=0;
+		document.getElementById('charCountLive').innerHTML=0;
 	} else {}
 }
 
@@ -73,7 +75,6 @@ if (pattern.test(testUrl)) {
 	event.preventDefault();
 	document.documentElement.classList.toggle('night-element');
 } else {
-	// ignore and proceed
 }
 
 document.getElementById('fileInput').addEventListener('change', openFile, false);
