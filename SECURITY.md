@@ -21,20 +21,29 @@ I will investigate submitted reports and make every effort to quickly resolve vu
 
 This project contains some custom-written code and extensions, so I'm particularly interested in whether you can achieve XSS via a **Markdown payload**, or otherwise, in the context of `yasins.github.io` (e.g. DOM or reflected XSS).
 
-### Exclusions
-The following conditions, issues, and test types are **not** in scope for research against this project, or my disclosure program.
+## Exclusions
+The following conditions, issues, and test types are **not** in scope for this disclosure program.
  
  * Physical testing and social engineering attacks
  * Issues concerning projects not listed in the "In Scope" section
  * Issues concerning third-party products and services
+ * Issues affecting only outdated browsers (e.g. IE < 9, Chrome < 40, Firefox < 35)
  * Reports only containing attachment or video PoCs
  * Reports directly transferred from an automated scanner
  * Generic hardening issues (e.g. those concerning browser headers)
  * Issues related to email service (e.g. "spoofing" or "SPF/DKIM records")
  * Denial of service vulnerabilities
  * Content injection and error page injection
+ * Reflected file download
+ * Mixed content
+ * CSV injection
  * 401 injection
+ * Broken links
+ * Spamming
  * Host header vulnerabilities
+ * Tabnabbing and `window.opener` attacks
+ * Best practice and speculative reports
+ * Infrastructure issues (e.g. SSL, DNS, other server configuration)
  * CSRF with no security implications
  * Clickjacking and `X-Frame-Options` vulnerabilities
  * Cookie-related vulnerabilities (e.g. "missing HTTP Only flag")
