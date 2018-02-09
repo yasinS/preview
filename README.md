@@ -1,5 +1,5 @@
 # 📝 preview
-A simple Markdown editor. Published under the [MIT License](https://github.com/yasinS/preview/blob/master/LICENSE) as an experimental project, which I use personally for day-to-day text review.
+A simple browser-based Markdown editor. Published under the [MIT License](https://github.com/yasinS/preview/blob/master/LICENSE) as an experimental project, which I use personally for day-to-day text review.
 
 ## 💻 Online demo
 
