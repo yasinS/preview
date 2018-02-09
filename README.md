@@ -3,6 +3,8 @@ A simple Markdown editor, published under the [MIT License](https://github.com/y
 
 ## 💻 Online demo
 
+<img src="readme.png" width="40%">
+
 Try the latest build in your browser, hosted on [GitHub Pages](https://yasins.github.io/preview/).
 
 ## 📓 Features
