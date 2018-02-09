@@ -8,6 +8,6 @@ Try the latest Preview build hosted on [GitHub Pages](https://yasins.github.io/p
 ## 📓 Features
 * Live preview using [Showdown](https://github.com/showdownjs/showdown) 
 * Restrictive HTML sanitisation powered by [DOMPurify](https://github.com/cure53/DOMpurify)
-* Offline capable window with local save/load (using non-persistent browser functions)
+* Offline capable with local save/load using browser functions
 * Markdown [table](https://www.npmjs.com/package/showdown-table) support
-* Night mode toggle
+* Night mode toggle (via button or `?night=1` URL parameter)
