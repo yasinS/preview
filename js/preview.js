@@ -11,7 +11,7 @@ function convert() {
 	var clean = DOMPurify.sanitize(html, {
 		FORBID_ATTR: ['style', 'hidden', 'shape', 'hreflang', 'media', 'download', 'coords', 'rev', 'type', 'rel', 'title', 'tabindex', 'spellcheck', 'lang', 'class', 'data-nent', 'dir', 'id', 'datanent', 'alt', 'xmlns', 'srcset', 'name'],
 		ALLOWED_URI_REGEXP: /^(?:(?:(?:f|ht)tps?|mailto):|[^a-z]|[a-z+.\-]+(?:[^a-z+.\-:]|$))/i,
-		ALLOWED_TAGS: ['h1', 'h2', 'h3', 'h4', 'h5', 'b', 'p', 'ul', 'ol', 'li', 'a', 'blockquote', 'code', 'dl', 'dt', 'pre', 'br', 'hr', 'strike', 'strong','del','table','td','tr','th','tbody','thead']
+		ALLOWED_TAGS: ['img', 'h1', 'h2', 'h3', 'h4', 'h5', 'b', 'p', 'ul', 'ol', 'li', 'a', 'blockquote', 'code', 'dl', 'dt', 'pre', 'br', 'hr', 'strike', 'strong','del','table','td','tr','th','tbody','thead']
 	});
 	target.innerHTML = clean;
 	Countable.count(document.getElementById('source'), counter => document.getElementById('wordCountLive').innerHTML= counter.words);
