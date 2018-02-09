@@ -1,0 +1,47 @@
+/* Base editor specifications */
+body {
+	margin: 0;
+	background: white;
+}
+textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: transparent;
+	width: 100%;
+	height: 45vw;
+}
+blockquote {
+	border-left: 2px solid #1EAEDB;
+	padding-left: 10px;
+}
+/* Feature specifications */
+.home {
+	padding: 20px;
+}
+.header {
+	background: #222;
+	padding: 15px;
+	color: #f2f2f2;
+}
+.utility {
+	text-decoration: none;
+}
+.hidden {
+	display: none !important;
+}
+
+/* Night mode toggles */
+.night-element body {
+	background-color: #272727;
+	color: #ffffff;
+}
+.night-element a {
+	color: #1EAEDB;
+}
+.night-element code {
+	color: #000;
+}
+.night-element textarea {
+	color: #ffffff;
+}
