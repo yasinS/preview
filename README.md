@@ -3,7 +3,7 @@ A simple Markdown editor, published under the [MIT License](https://github.com/y
 
 ## 💻 Online demo
 
-Try the latest Preview build hosted on [GitHub Pages](https://yasins.github.io/preview/index.html).
+Try the latest Preview build hosted on [GitHub Pages](https://yasins.github.io/preview/).
 
 ## 📓 Features
 * Live preview using [Showdown](https://github.com/showdownjs/showdown) 
