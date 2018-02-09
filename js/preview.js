@@ -63,6 +63,17 @@ nightMode.addEventListener('click', function(event) {
 
 // Prepare window-onload functions
 window.addEventListener("load", function(){
+
+// Night mode query parameter test
+var pattern = /[?&]night=1/;
+var testUrl = location.search;
+if (pattern.test(testUrl)) {
+	event.preventDefault();
+	document.documentElement.classList.toggle('night-element');
+} else {
+	// ignore and proceed
+}
+
 document.getElementById('fileInput').addEventListener('change', openFile, false);
 document.getElementById("source").value = "# Welcome to Preview.";
 convert();
