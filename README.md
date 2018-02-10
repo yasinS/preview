@@ -18,9 +18,11 @@ _You can stop the `live-server` instance by executing `npm stop` from the `previ
 <img src="readme.png" width="40%">
 
 ## 📓 Features
-* Live preview powered by [Showdown](https://github.com/showdownjs/showdown) 
+* Enhanced feature set and live preview powered by [Remarkable](https://github.com/jonschlinkert/remarkable), plus: 
+  * GitHub Flavoured tables
+  * GitHub Flavoured strikethrough
+  * Text footnoting
 * Restrictive HTML sanitisation from [DOMPurify](https://github.com/cure53/DOMpurify)
 * Offline-capable with save, load, and print using local browser functions
 * Night mode (via toggle button or `?night=1` URL parameter)
-* Word count using Sacha Schmid's [Countable](https://github.com/RadLikeWhoa/Countable)
-* Basic markdown [table](https://www.npmjs.com/package/showdown-table) support
+* Inbuilt word and character counter

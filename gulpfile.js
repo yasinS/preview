@@ -28,8 +28,10 @@ gulp.task('js', function() {
     gulp.src([
             'src/js/preview.js',
             'node_modules/dompurify/dist/purify.min.js',
-	    'node_modules/showdown/dist/showdown.min.js',
-	    'node_modules/showdown-table/dist/showdown-table.min.js',
+	    'node_modules/highlight.js/lib/highlight.js',
+	    'node_modules/remarkable/dist/remarkable.min.js',
+	    // 'node_modules/showdown/dist/showdown.min.js',
+	    // 'node_modules/showdown-table/dist/showdown-table.min.js',
 	    // 'node_modules/showdown-furigana-extension/lib/furigana.js',
         ])
 	//.pipe(babel({
