@@ -2,11 +2,11 @@
 A simple browser-based Markdown editor. Published under the [MIT License](https://github.com/yasinS/preview/blob/master/LICENSE) as an experimental project, which I use personally for day-to-day text review.
 
 ## Using the editor
-## Online version
-* Try the latest build in your browser at **[Add-URL]()**.
+### 🌐 Online version
+* Try the latest release build in your browser at **[Add-URL]()**.
 * You can also add the editor to your shelf on Chrome OS devices as a windowed app.
 
-## 💻 Running locally
+### 💻 Running locally
 This project uses [NPM](https://www.npmjs.com/) and Gulp for build management. Before proceeding, check that you have installed [Node](https://nodejs.org/en/download/package-manager) on your system.
 
 1. Clone this repository and `cd` into the `preview` directory
