@@ -88,3 +88,7 @@ blockquote {
 .icon-brightness-contrast:before {
 	content: "\e9d6"
 }
+
+.icon-download3:before {
+  content: "\e9c7";
+}
