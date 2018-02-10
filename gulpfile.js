@@ -47,7 +47,8 @@ gulp.task('images', function() {
 
 gulp.task('manifest', function() {
     gulp.src([
-            'src/manifest/manifest.json'
+            'src/manifest/manifest.json',
+            'src/extra/_config.yml'
         ])
         .pipe(gulp.dest('web/'));
 });
@@ -55,8 +56,7 @@ gulp.task('manifest', function() {
 
 gulp.task('extra', function() {
     gulp.src([
-            'src/extra/security.txt',
-	    'src/extra/_config.yml'
+            'src/extra/security.txt'
         ])
         .pipe(gulp.dest('web/.well-known/'));
 });
