@@ -2,7 +2,7 @@
 A simple browser-based Markdown editor. Published under the [MIT License](https://github.com/yasinS/preview/blob/master/LICENSE) as an experimental project.
 
 <center>
-[![Build Status](https://travis-ci.org/yasinS/preview.svg?branch=master)](https://travis-ci.org/yasinS/preview)
+<img src="https://travis-ci.org/yasinS/preview.svg?branch=master">
 </center>
 
 ## Using the editor
