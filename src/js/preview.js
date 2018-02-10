@@ -14,8 +14,12 @@ function convert() {
 		ALLOWED_TAGS: ['img', 'h1', 'h2', 'h3', 'h4', 'h5', 'b', 'p', 'ul', 'ol', 'li', 'a', 'blockquote', 'code', 'dl', 'dt', 'pre', 'br', 'hr', 'strike', 'strong','del','table','td','tr','th','tbody','thead']
 	});
 	target.innerHTML = clean;
-	// Countable.count(document.getElementById('source'), counter => document.getElementById('wordCountLive').innerHTML= counter.words);
-	// Countable.count(document.getElementById('source'), counter => document.getElementById('charCountLive').innerHTML= counter.characters);
+	var textToSelect = document.getElementById('source');
+	var textToCount = textToSelect.value;
+        chars = text.length;
+        words = text.split(/\b\S+\b/g).length - 1;
+	document.getElementById('wordCountLive').innerHTML = words;
+	document.getElementById('charCountLive').innerHTML = chars;
 };
 
 // Prompt user before clearing editor window

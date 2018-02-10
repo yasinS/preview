@@ -1,11 +1,13 @@
 var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     concat = require('gulp-concat'),
-    minifyCSS = require('gulp-minify-css');
+    minifyCSS = require('gulp-minify-css'),
+    babel  = require('gulp-babel');
 
 gulp.task('css', function() {
     gulp.src([
-            'src/css/**/*.css'
+            'src/css/skel.css',
+	    'src/css/ext.css'
         ])
         .pipe(minifyCSS())
         .pipe(concat('style.css'))
@@ -24,16 +26,20 @@ gulp.task('fonts', function() {
 
 gulp.task('js', function() {
     gulp.src([
+            'src/js/preview.js',
             'node_modules/dompurify/dist/purify.min.js',
 	    'node_modules/showdown/dist/showdown.min.js',
 	    'node_modules/showdown-table/dist/showdown-table.min.js',
-            'src/js/preview.js'
+	    // 'node_modules/showdown-furigana-extension/lib/furigana.js',
         ])
-        .pipe(uglify())
-	// .on('error', function(err){
-	// 	console.log(err);
-	// })
+	//.pipe(babel({
+	//	presets: ['es2015'],
+	// }))
         .pipe(concat('script.js'))
+	.pipe(uglify())
+        .on('error', function(err){
+                console.log(err);
+         })
         .pipe(gulp.dest('web/dist/js'));
 });
 

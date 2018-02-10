@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	background: white
+	background: white;
 }
 textarea {
 	-webkit-box-sizing: border-box;
@@ -8,51 +8,51 @@ textarea {
 	box-sizing: border-box;
 	background: transparent;
 	width: 100%;
-	height: 45vw
+	height: 85vh;
 }
 blockquote {
 	border-left: 2px solid #1EAEDB;
-	padding-left: 10px
+	padding-left: 10px;
 }
 .home {
-	padding: 20px
+	padding: 20px;
 }
 .header {
 	background: #222;
 	padding: 15px;
-	color: #f2f2f2
+	color: #f2f2f2;
 }
 .utility {
-	text-decoration: none
+	text-decoration: none;
 }
 .hidden {
-	display: none!important
+	display: none!important;
 }
 .night-element body {
 	background-color: #272727;
-	color: #fff
+	color: #fff;
 }
 .night-element a {
-	color: #1EAEDB
+	color: #1EAEDB;
 }
 .night-element code {
-	color: #000
+	color: #000;
 }
 .night-element textarea {
-	color: #fff
+	color: #fff;
 }
 @media print {
 	body {
-		visibility: hidden!important
+		visibility: hidden!important;
 	}
 	#output, #output * {
-		visibility: visible!important
+		visibility: visible!important;
 	}
 	#output {
 		position: absolute;
 		left: 0;
 		top: 0;
-		color: #000
+		color: #000;
 	}
 }
 @font-face {
