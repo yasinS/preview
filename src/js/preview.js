@@ -74,7 +74,8 @@ function downloadText() {
 	var textBlob = new Blob([writeOutput], {
 		type: 'text/plain'
 	});
-	var fileName = "preview.md"
+	var fileName = "preview.md";
+	// var fileName = document.getElementById("filename-input").value;
 	var grabLink = document.createElement("a");
 	grabLink.download = fileName;
 	grabLink.innerHTML = "Download file";
