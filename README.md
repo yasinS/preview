@@ -26,6 +26,7 @@ _You can stop the `live-server` instance by executing `npm stop` from the `previ
   * GitHub Flavoured tables
   * GitHub Flavoured strikethrough
   * Text footnoting
+* Contents autosaved to Local Storage in your browser – nothing remote nor collected externally
 * Restrictive HTML sanitisation from [DOMPurify](https://github.com/cure53/DOMpurify)
 * Offline-capable with save, load, and print using local browser functions
 * Night mode (via toggle button or `?night=1` URL parameter)
