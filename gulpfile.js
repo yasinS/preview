@@ -20,7 +20,7 @@ gulp.task('fonts', function() {
             'src/fonts/**/*.ttf',
             'src/fonts/**/*.woff'
         ])
-        .pipe(gulp.dest('web/dist/fonts'));
+        .pipe(gulp.dest('web/dist/css/fonts'));
 });
 
 gulp.task('js', function() {
