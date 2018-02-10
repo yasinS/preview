@@ -15,7 +15,7 @@ This project uses [NPM](https://www.npmjs.com/) and Gulp for build management. B
 
 1. Clone this repository and `cd` into the `preview` directory
 2. Run `npm install` to build and streamline the packages
-3. Serve with `npm start` and browse to `http://<server>:8081`
+3. Serve with `npm start` and browse to `http://localhost:8081`
 
 _You can stop the `live-server` instance by executing `npm stop` from the `preview` directory._
 
