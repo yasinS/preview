@@ -3,7 +3,7 @@ A simple browser-based Markdown editor. Published under the [MIT License](https:
 
 ## Using the editor
 ### 🌐 Online version
-* Use the latest release build in your browser at **[Add-URL]()**.
+* Use the latest release build in your browser at **[https://yasins.github.io/preview-live/](https://yasins.github.io/preview-live/)**.
 * You can also add the editor to your shelf on Chrome OS devices as a windowed app.
 
 ### 💻 Running locally
