@@ -52,8 +52,16 @@ gulp.task('manifest', function() {
         .pipe(gulp.dest('web/'));
 });
 
+
+gulp.task('extra', function() {
+    gulp.src([
+            'src/extra/security.txt'
+        ])
+        .pipe(gulp.dest('web/.well-known/'));
+});
+
 gulp.task('default', function() {
-    gulp.run('js', 'css', 'images', 'fonts', 'manifest');
+    gulp.run('js', 'css', 'images', 'fonts', 'manifest', 'extra');
 });
 
 gulp.task('watch', function() {
@@ -83,4 +91,10 @@ gulp.task('watch', function() {
             console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
             gulp.run('manifest');
         });
+
+        gulp.watch('src/extra/**/*', function(event) {
+            console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+            gulp.run('extra');
+        });
+
 });
