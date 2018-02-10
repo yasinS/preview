@@ -28,7 +28,7 @@
   },
   "scripts": {
    "postinstall": "gulp",
-   "start": "live-server --port=80 --quiet web/ &",
+   "start": "live-server --port=8081 --quiet web/ &",
    "stop": "pkill -f live-server"
   },
   "homepage": "https://yasins.github.io/preview/",
