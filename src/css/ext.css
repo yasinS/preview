@@ -57,8 +57,8 @@ blockquote {
 }
 @font-face {
 	font-family: 'icomoon';
-	src: url('/dist/fonts/icomoon.eot?be1evl');
-	src: url('/dist/fonts/icomoon.eot?be1evl#iefix') format('embedded-opentype'), url('/dist/fonts/icomoon.ttf?be1evl') format('truetype'), url('/dist/fonts/icomoon.woff?be1evl) format('woff'), url('/dist/fonts/icomoon.svg?be1evl#icomoon') format('svg');
+	src: url('/dist/fonts/icomoon.eot');
+	src: url('/dist/fonts/icomoon.eot#iefix') format('embedded-opentype'), url('/dist/fonts/icomoon.ttf') format('truetype'), url('/dist/fonts/icomoon.woff') format('woff'), url('/dist/fonts/icomoon.svg#icomoon') format('svg');
 	font-weight: 400;
 	font-style: normal
 }
