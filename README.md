@@ -9,11 +9,11 @@ A simple browser-based Markdown editor. Published under the [MIT License](https:
 ## 💻 Running locally
 This project uses [NPM](https://www.npmjs.com/) and Gulp for build management. Before proceeding, check that you have installed [Node](https://nodejs.org/en/download/package-manager) on your system.
 
-1. Clone this repository to a location of your choice
-2. `cd` into the repository, then run `npm install`
-3. Finally, start the local server with `npm start`
+1. Clone this repository and `cd` into the `preview` directory
+2. Run `npm install` to build and streamline the packages
+3. Serve with `npm start` and browse to `http://<server>:8081`
 
-You can stop the local `live-server` instance by executing `npm stop` from the package directory.
+_You can stop the `live-server` instance by executing `npm stop` from the `preview` directory._
 
 <img src="readme.png" width="40%">
 
