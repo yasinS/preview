@@ -1,6 +1,0 @@
-# Please send an email to the below address
-# to receive an invitation to my private HackerOne program
-# where you can file your report.
-Contact: security@ysx-contact.com
-Acknowledgements: https://github.com/yasinS/preview/blob/master/SECURITY.md
-Policy: https://github.com/yasinS/preview/blob/master/SECURITY.md
