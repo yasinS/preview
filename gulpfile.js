@@ -1,8 +1,7 @@
 var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     concat = require('gulp-concat'),
-    minifyCSS = require('gulp-minify-css'),
-    babel  = require('gulp-babel');
+    minifyCSS = require('gulp-minify-css');
 
 gulp.task('css', function() {
     gulp.src([
@@ -30,13 +29,7 @@ gulp.task('js', function() {
             'node_modules/dompurify/dist/purify.min.js',
 	    'node_modules/highlight.js/lib/highlight.js',
 	    'node_modules/remarkable/dist/remarkable.min.js',
-	    // 'node_modules/showdown/dist/showdown.min.js',
-	    // 'node_modules/showdown-table/dist/showdown-table.min.js',
-	    // 'node_modules/showdown-furigana-extension/lib/furigana.js',
         ])
-	//.pipe(babel({
-	//	presets: ['es2015'],
-	// }))
         .pipe(concat('script.js'))
 	.pipe(uglify())
         .on('error', function(err){
@@ -52,8 +45,15 @@ gulp.task('images', function() {
         .pipe(gulp.dest('web/dist/images'));
 });
 
+gulp.task('manifest', function() {
+    gulp.src([
+            'src/manifest/manifest.json'
+        ])
+        .pipe(gulp.dest('web/'));
+});
+
 gulp.task('default', function() {
-    gulp.run('js', 'css', 'images', 'fonts');
+    gulp.run('js', 'css', 'images', 'fonts', 'manifest');
 });
 
 gulp.task('watch', function() {
@@ -79,4 +79,8 @@ gulp.task('watch', function() {
             gulp.run('fonts');
         });
 
+        gulp.watch('src/manifest/**/*', function(event) {
+            console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+            gulp.run('manifest');
+        });
 });

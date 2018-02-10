@@ -3,7 +3,7 @@ A simple browser-based Markdown editor. Published under the [MIT License](https:
 
 ## Using the editor
 ### 🌐 Online version
-* Try the latest release build in your browser at **[Add-URL]()**.
+* Use the latest release build in your browser at **[Add-URL]()**.
 * You can also add the editor to your shelf on Chrome OS devices as a windowed app.
 
 ### 💻 Running locally
