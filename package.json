@@ -1,0 +1,37 @@
+{
+  "name": "preview",
+  "version": "0.1.0",
+  "description": "A simple browser-based Markdown editor.",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasinS/preview.git"
+  },
+  "keywords": [
+    "markdown"
+  ],
+  "author": "Yasin Soliman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yasinS/preview/issues"
+  },
+  "dependencies": {
+    "countable": "^3.0.0",
+    "dompurify": "^1.0.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^3.0.0",
+    "showdown": "^1.8.6",
+    "showdown-highlight": "^2.0.0",
+    "showdown-table": "^1.0.1"
+  },
+  "scripts": {
+   "start": "live-server --port=80 --quiet web/ &",
+   "stop": "pkill -f live-server"
+  },
+  "homepage": "https://yasins.github.io/preview/",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
