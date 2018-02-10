@@ -55,7 +55,8 @@ gulp.task('manifest', function() {
 
 gulp.task('extra', function() {
     gulp.src([
-            'src/extra/security.txt'
+            'src/extra/security.txt',
+	    'src/extra/_config.yml'
         ])
         .pipe(gulp.dest('web/.well-known/'));
 });
