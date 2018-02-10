@@ -3,7 +3,7 @@ A simple browser-based Markdown editor. Published under the [MIT License](https:
 
 ## 💻 Online demo
 
-<img src="img/readme.png" width="40%">
+<img src="readme.png" width="40%">
 
 * Try the latest build in your browser, hosted on [GitHub Pages](https://yasins.github.io/preview/).
 * You can also add the editor to your shelf on Chrome OS devices as a windowed app.
