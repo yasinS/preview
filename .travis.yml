@@ -7,9 +7,6 @@ before_script:
 script:
   - gulp
 
-after_script:
-  - touch test.txt
-
 branches:
   only:
     - master
