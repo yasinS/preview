@@ -1,5 +1,9 @@
 # 📝 preview
-A simple browser-based Markdown editor. Published under the [MIT License](https://github.com/yasinS/preview/blob/master/LICENSE) as an experimental project, which I use personally for day-to-day text review.
+A simple browser-based Markdown editor. Published under the [MIT License](https://github.com/yasinS/preview/blob/master/LICENSE) as an experimental project.
+
+<center>
+[![Build Status](https://travis-ci.org/yasinS/preview.svg?branch=master)](https://travis-ci.org/yasinS/preview)
+</center>
 
 ## Using the editor
 ### 🌐 Online version
