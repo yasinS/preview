@@ -14,10 +14,10 @@ A simple browser-based Markdown editor. Published under the [MIT License](https:
 This project uses [NPM](https://www.npmjs.com/) and Gulp for build management. Before proceeding, check that you have installed [Node](https://nodejs.org/en/download/package-manager) on your system.
 
 1. Clone this repository and `cd` into the `preview` directory
-2. Run `npm install` to build and streamline the packages
-3. Serve with `npm start` and browse to `http://127.0.0.1:8081`
+2. Run `npm install` to build and streamline the dependencies
+3. Serve with `npm start` and browse to `http://127.0.0.1:8081` (stop with `npm stop`)
 
-_You can stop the Preview `live-server` by executing `npm stop` from the `preview` directory._
+_Using the in-built web server is optional. After `npm install` has finished, you can open or serve the `web` directory in a manner of your choice_.
 
 <img src="readme.png" width="40%">
 
@@ -27,7 +27,7 @@ _You can stop the Preview `live-server` by executing `npm stop` from the `previe
   * GitHub Flavoured strikethrough
   * Text footnoting
 * Per-minute autosave to Local Storage in your browser – nothing remote nor collected externally
-* Restrictive HTML sanitisation from [DOMPurify](https://github.com/cure53/DOMpurify)
 * Offline-capable with save, load, and print using local browser functions
+* Restrictive HTML sanitisation from [DOMPurify](https://github.com/cure53/DOMpurify)
 * Night mode (via toggle button or `?night=1` URL parameter)
-* Inbuilt word and character counter
+* Inbuilt word and character count
