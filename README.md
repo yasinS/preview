@@ -26,8 +26,8 @@ _Using the in-built web server is optional. After `npm install` has finished, yo
   * GitHub Flavoured tables
   * GitHub Flavoured strikethrough
   * Text footnoting
-* Per-minute autosave to Local Storage in your browser – nothing remote nor collected externally
+* Autosave to Local Storage in your browser – nothing remote nor collected externally
 * Offline-capable with save, load, and print using local browser functions
-* Restrictive HTML sanitisation from [DOMPurify](https://github.com/cure53/DOMpurify)
+* Restrictive input sanitisation from [DOMPurify](https://github.com/cure53/DOMpurify)
 * Night mode (via toggle button or `?night=1` URL parameter)
 * Inbuilt word and character count
