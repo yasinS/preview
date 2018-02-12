@@ -75,7 +75,6 @@ function downloadText() {
 		type: 'text/plain'
 	});
 	var fileName = "preview.md";
-	// var fileName = document.getElementById("filename-input").value;
 	var grabLink = document.createElement("a");
 	grabLink.download = fileName;
 	grabLink.innerHTML = "Download file";
@@ -83,8 +82,32 @@ function downloadText() {
 	grabLink.click();
 }
 
+// Download editor contents to local file via HTML blob
+function downloadHTML() {
+        var writeOutputHTML = document.getElementById("output").innerHTML;
+        var textBlobHTML = new Blob([writeOutputHTML], {
+                type: 'text/html'
+        });
+        var fileNameHTML = "preview.html";
+        var grabLinkHTML = document.createElement("a");
+        grabLinkHTML.download = fileNameHTML;
+        grabLinkHTML.innerHTML = "Download file";
+        grabLinkHTML.href = window.URL.createObjectURL(textBlobHTML);
+        grabLinkHTML.click();
+}
+
 function destroyClickedElement(event) {
 	document.body.removeChild(event.target);
+}
+
+// Toggle link visibility
+
+function showDownloadOpts() {
+var dLinks = document.getElementById('download-options');
+  if(dLinks.style.display == 'none')
+    dLinks.style.display = 'inline';
+  else
+    dLinks.style.display = 'none';
 }
 
 // Read local file to editor window
@@ -122,6 +145,7 @@ document.getElementById('fileInput').addEventListener('change', openFile, false)
 if (localStorage.getItem("text") === null) {
 	localStorage["text"] = "# Welcome to Preview.";
 }
+document.getElementById('download-options').style.display = 'none';
 document.getElementById("source").value = localStorage["text"];
 convert();
 document.getElementById("source").focus();

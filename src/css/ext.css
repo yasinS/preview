@@ -28,9 +28,10 @@ blockquote {
 	padding: 15px;
 	color: #f2f2f2;
 }
-.utility {
+.utility, .utility-text {
 	text-decoration: none;
 }
+
 .hidden {
 	display: none!important;
 }
