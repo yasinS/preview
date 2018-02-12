@@ -60,12 +60,16 @@ function clearText() {
 
 function saveText() {
 	localStorage["text"] = source.value;
+	document.getElementById('save-options').style.display = 'inline';
+	setTimeout(function(){ document.getElementById('save-options').style.display = 'none'; },3000);
 }
 
 // Autosave to Local Storage every 60 seconds
 
 setInterval(function() {
 	localStorage["text"] = source.value;
+	document.getElementById('save-options').style.display = 'inline';
+	setTimeout(function(){ document.getElementById('save-options').style.display = 'none'; },3000);
 }, 60 * 1000);
 
 // Download editor contents to local file via text/plain blob
@@ -146,6 +150,7 @@ if (localStorage.getItem("text") === null) {
 	localStorage["text"] = "# Welcome to Preview.";
 }
 document.getElementById('download-options').style.display = 'none';
+document.getElementById('save-options').style.display = 'none';
 document.getElementById("source").value = localStorage["text"];
 convert();
 document.getElementById("source").focus();

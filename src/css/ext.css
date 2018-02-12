@@ -32,6 +32,10 @@ blockquote {
 	text-decoration: none;
 }
 
+#save-options {
+	color: #d0cfcf !important;
+}
+
 .hidden {
 	display: none!important;
 }
