@@ -1,3 +1,3 @@
 Contact: security@ysx-contact.com
-Acknowledgements: https://github.com/yasinS/preview/blob/master/SECURITY.md
-Policy: https://github.com/yasinS/preview/blob/master/SECURITY.md
+Acknowledgements: https://github.com/yasinS/yasins.github.io/blob/master/SECURITY.md
+Policy: https://github.com/yasinS/yasins.github.io/blob/master/SECURITY.md
